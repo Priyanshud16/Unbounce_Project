@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/signup.css">
+</head>
+<body>
+    <div class="signupcontainer">
+        <div class="signupLogo">
+            <img src="https://d9hhrg4mnvzow.cloudfront.net/unbounce.com/product-selector/7089096e-d22ffb13-logo-unbounce.svg" alt=""><h3>Smart Copy</h3>
+        </div>
+        <p>Name</p>
+        <input type="text" name="" id="Name" placeholder="Enter Your name">
+        <p>Email</p>
+        <input type="email" name="" id="mail" placeholder="Enter Your Email">
+        <p>Password</p>
+        <input type="password" id="Password" placeholder="Enter your password"><br>
+        <button onclick="signup()">continue</button><br>
+        <a href="/SmartCopylogin.html">Have an account already signin now</a>
+    </div>
+</body>
+<script>
+    function signup(){
+   let name=document.getElementById("Name").value
+
+   let email=document.getElementById("mail").value 
+
+   let password=document.getElementById("Password").value
+
+   localStorage.setItem("Name",name);
+   localStorage.setItem("mail",email);
+   localStorage.setItem("Password",password);
+
+
+  
+    }
+</script>
+</html>

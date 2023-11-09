@@ -1,0 +1,67 @@
+.container{
+    height: 730px;
+    width: 100%;
+    display: flex;
+}
+.para{
+    width: 50%;
+    height: 730px;
+}
+.logo{
+    width: 50%;
+    height: 730px;
+}
+.design{
+    width: 50%;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 150px;
+    
+}
+.btn{
+   
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+}
+.btn>button{
+    height: 100px;
+    width: 300px;
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+.btn>button:hover{
+  background-color: blue;
+  color: white;
+}
+#help{
+    color: blue;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.logo{
+    background-color: rgb(242,241,237);
+}
+.heading{
+
+    height: 150px;
+    width: 100%;
+    margin-top: 150px;
+}
+.heading>h1,h2{
+    text-align: center;
+    font-weight: bold;
+}
+.logo2>img{
+height: 420px;
+width: 100%;
+
+}
+button>a{
+    text-decoration: none;
+    color: blue;
+}
+button>a:hover{
+    color: white;
+}

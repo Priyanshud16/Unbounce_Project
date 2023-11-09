@@ -1,0 +1,333 @@
+.minheader{
+    border: 5px solid rgb(0,51,255);
+     height: 10px;
+     width: 100vw;
+     background-color: rgb(0,51,255);
+     color: white;
+     text-align: center;
+     padding-bottom: 30px;
+     position: sticky;
+ 
+     
+ }
+ 
+ 
+ p>a{
+     color: white;
+ }
+ 
+ .header{
+     border: 2px solid rgb(48,48,48) ;
+     height: 70px;
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+     background-color:rgb(48,48,48) ;
+     color: black;
+     position: sticky;
+     
+ }
+ #unbounce{
+     
+     width: 100px;
+     height: 50px;
+     font-family: "source sans pro", sans-serif;
+     padding-top: 20px;
+     
+     
+ 
+ }
+ 
+ .product>a,.solution>a,.price>a,.learn>a,.contact>a{
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .product,.solution,.price,.learn,.contact{
+    
+     width: 60px;
+     height: 50px;
+     font-size: 20px;
+     padding-top: 20px
+     
+ }
+ .mainHeader{
+     width: 100vw;
+     height: 70px;
+     display: flex;
+     position: sticky;
+ 
+ }
+ .header2{
+    border: 2px solid rgb(48,48,48);
+    height: 70px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(48,48,48);
+    position: sticky;
+}
+.header2>.login{
+    
+    width: 15%;
+    height: 50px;
+    background-color:rgb(48,48,48) ;
+    color: white;
+    border: 2px solid white;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.login>h3>a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.login>h3>a:hover{
+   color: black;
+    
+}
+.header2>.login:hover{
+    color:black;
+    background-color: white;
+}
+.header2>.trial:hover{
+    color:white;
+    background-color: black;
+
+}
+.header2>.trial{
+    width: 25%;
+    height: 50px;
+    background-color:white ;
+    color:rgb(48,48,48) ;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.mainContent{
+    
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(249,248,247);
+}
+.mainContent>#btn{
+    color: blue;
+    background-color: rgb(199, 42, 42);
+    text-decoration: blue;
+    margin-left: 500px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.mainContent>#btn:hover{
+    color: red;
+    background-color: blue;
+}
+
+.heading{
+
+    height: 200px;
+    width: 100%;
+}
+.heading>h1{
+    width: 50%;
+    margin-left: 300px;
+}
+.paragraph{
+    display: flex;
+    width: 30%;
+    margin-left: 500px;
+
+}
+.color{
+    display: flex;
+ background-color: rgb(103,230,178);
+ margin-left: 50px;
+}
+.color>p{
+    padding-top: 10px;
+}
+.paragraph>p{
+    padding-top: 10px;
+}
+.container{
+   
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(249,248,247) ;
+}
+.container>.child{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+height: 650px;
+width: 20%;
+
+}
+.child>img{
+    height: 100px;
+   
+}
+.dollor{
+    display: flex;
+}
+
+.dollor>h1{
+   
+    height: 50px;
+}
+.dollor>p{
+   
+    height: 15px;
+    margin-top: 50px;
+}
+.paragraph1{
+   
+    height: 40px;
+    width: 90%;
+    display: flex;
+    
+}
+.amt{
+
+width: 20%;
+background-color:rgb(103,230,178) ;
+height: 20px;
+text-decoration: line-through;
+
+}
+.child>p{
+    padding-left: 20px;
+}
+.para1{
+    
+    display: flex;
+}
+.paraLogo{
+  
+    width: 10%;
+    height: 25px;
+    margin-top: 20px;
+}
+.para2,.para3,.para4,.para5{
+  
+    display: flex;
+   
+}
+.paraLogo2,.paraLogo3,.paraLogo4,.paraLogo5{
+    
+    height: 25px;
+    margin-top: 15px;
+}
+button{
+    height: 50px;
+    width: 250px;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+button>a{
+    color: white;
+    text-decoration: none;
+}
+button:hover{
+    background-color: aqua ;
+}
+
+.info{
+    
+    height: 650px;
+    width: 100%;
+    background-color: rgb(48,48,48);
+    
+
+}
+.infoHead{
+   
+    height: 60px;
+    width: 50%;
+    margin-left: 400px;
+    text-align: center;
+    font-size: 30px;
+}
+.infoHead>h1{
+    color: white;
+}
+.infoPara{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    color: white;
+}
+
+.infoLogo{
+   
+    height: 400px;
+    display: flex;
+    justify-content: center;
+   
+    width: 90%;
+    margin-left: 100px;
+}
+.infoChild{
+   
+    height: 300px;
+    width: 25%;
+}
+.logoH4,.logoP1{
+    color: white;
+}
+.logoH1{
+    color: palevioletred;
+    font-size: 70px;
+}
+
+.names{
+    
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(48,48,48)  ;
+    justify-content: center;
+}
+.namesChild{
+   
+    height: 100px;
+    width: 15%;
+    
+}
+.namesChild>img{
+height: 25px;
+}
+.bottom{
+    height: 700px;
+    width: 100%;
+    
+    margin-top: 100px;
+   
+    display: flex;
+    justify-content: center;
+}
+.bottomChild{
+    height: 700px;
+    width: 15%;
+   
+}
+
+.bottomChild>p{
+    padding-top: 20px;
+}
+.end{
+   
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.endChild{
+    padding-left: 150px;
+}

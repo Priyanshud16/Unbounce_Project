@@ -1,0 +1,428 @@
+.minheader{
+    border: 5px solid rgb(0,51,255);
+     height: 10px;
+     width: 100vw;
+     background-color: rgb(0,51,255);
+     color: white;
+     text-align: center;
+     padding-bottom: 30px;
+     
+     
+ }
+ 
+ 
+ p>a{
+     color: white;
+ }
+ 
+ .header{
+     border: 2px solid rgb(48,48,48);
+     height: 70px;
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+     background-color:rgb(48,48,48) ;
+     color: white;
+     
+ }
+ #unbounce{
+     
+     width: 100px;
+     height: 50px;
+     font-family: "source sans pro", sans-serif;
+     padding-top: 20px;
+     
+     
+ 
+ }
+ 
+ .product>a,.solution>a,.price>a,.learn>a,.contact>a{
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .product,.solution,.price,.learn,.contact{
+    
+     width: 60px;
+     height: 50px;
+     font-size: 20px;
+     padding-top: 20px
+     
+ }
+ .mainHeader{
+     width: 100vw;
+     height: 70px;
+     display: flex;
+ 
+ }
+ .header2{
+     border: 2px solid rgb(48,48,48);
+     height: 70px;
+     width: 40%;
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+     background-color: rgb(48,48,48);
+ }
+ .header2>.login{
+     
+     width: 15%;
+     height: 50px;
+     background-color:rgb(48,48,48) ;
+     color: white;
+     border: 2px solid white;
+     margin-top: 10px;
+     padding-left: 20px;
+ }
+ .login>h3>a{
+     color: white;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ .login>h3>a:hover{
+    color: black;
+     
+ }
+ .header2>.login:hover{
+     color:black;
+     background-color: white;
+ }
+ .header2>.trial:hover{
+     color:white;
+     background-color: black;
+ 
+ }
+ 
+ .header2>.trial{
+     width: 25%;
+     height: 50px;
+     background-color:white ;
+     color:rgb(48,48,48) ;
+     margin-top: 10px;
+     border-radius: 5px;
+     padding-left: 20px;
+     
+ }
+ .trial>h3>a{
+     text-decoration: none;
+ 
+ }
+ .trial>h3>a:hover{
+     color: white;
+ }
+ .maincontent{
+    
+     height: 600px;
+     width: 100vw;
+     display: flex;
+  background-color: rgb(48,48,48);
+ }
+ .write{
+     
+     height: 600px;
+     width: 45%;
+     
+ }
+ .write>h1{
+     font-size: 50px;
+     font-family: "barlow semi condensed", sans-serif;
+     text-align: center;
+     color: white;
+ }
+ .write>p{
+     text-align: center;
+     font-family:"barlow semi condensed", sans-serif;;
+     color: white;
+ }
+ .logo{
+     
+     height: 600px;
+     width: 55%;
+ }
+ .btn{
+     
+     width: 80%;
+     height: 70px;
+     display: flex;
+     justify-content: center;
+     margin-left: 80px;
+     gap: 30px;
+     margin-top: 70px;
+     
+     
+ }
+ .btn>#pink{
+     height: 70px;
+     width: 200px;
+     background-color: rgb(48,48,48);
+     color: rgb(255,161,161);
+     border: 2px solid rgb(255,161,161);
+     cursor: pointer;
+     
+     
+ }
+ #pink:hover{
+     background-color:rgb(255,161,161) ;
+     color: black;
+ }
+ .btn>#yellow{
+     height: 70px;
+     width: 200px;
+     background-color: rgb(48,48,48);
+     color: rgb(255,206,0);
+     border: 2px solid  rgb(255,206,0);
+     cursor: pointer;
+ }
+ #yellow:hover{
+     background-color: rgb(255,206,0) ;
+     color: black;
+ }
+ .logo>img{
+    height: 500px;
+    width: 100%;
+    
+ }
+ 
+ .write2ndP{
+    
+     height: 250px;
+     width: 100vw;
+ 
+ }
+ .write2ndP>h1{
+     font-family:"barlow semi condensed", sans-serif;
+     text-align: center;
+     font-size: 50px;
+ }
+ .write2ndP>p{
+     text-align: center;
+     font-size: 20px;
+ }
+ .midpagecontainer{
+    
+     width: 80vw;
+     height: 350px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 150px;
+     gap: 50px;
+ }
+ 
+ .midpagecontainer>.midpageChild{
+     width: 20vw;
+     height: 350px;
+ }
+ .midpageChild>img{
+     height: 40px;
+ }
+ .midpageChild>h2{
+     font-family: "barlow semi condensed", sans-serif;;
+ }
+ .midpageChild>p{
+     font-size: 20px;
+ }
+ .midpageChild>button{
+     height: 50px;
+     width: 140px;
+     margin-left: 70px;
+     margin-top: 20px;
+     background-color: white;
+     cursor: pointer;
+ }
+ .midpageChild>button:hover{
+   color: blue;
+   border: blue;
+ }
+ 
+ .vedio{
+    
+     width: 100vw;
+     height: 500px;
+ }
+ .seamlessy{
+     width: 100vw;
+     height: 500px;
+     background-color: rgb(243,241,238);
+     margin-bottom: 50px;
+     border: 1px solid white;
+ }
+ .seamlessy>.heading{
+     height: 250px;
+     width: 100vw;
+ }
+ .seamlessy>.heading>h1{
+     text-align: center;
+     font-size: 50px;
+     padding-top: 50px;
+ }
+ .seamlessy>.heading>p{
+     text-align: center;
+     font-size: 20px;
+ }
+ .seamlessy>.logo{
+     height: 250px;
+     width: 100vw;
+ }
+ .midLogo{
+     display: flex;
+ }
+ 
+ .seamlessy>.midLogo>.logochild{
+     height: 130px;
+     width: 130px;
+     margin-left: 40px;
+     margin-top: 50px;
+ 
+ }
+ .seamlessy>.midLogo>.logochild>img{
+     height: 100px;
+     padding-left: 10px;
+     padding-top: 20px;
+ }
+ .getMore{
+     height: 250px;
+     width: 100vw;
+    
+ }
+ .getMore >h1,p{
+     text-align: center;
+ }
+ .getMore >h1{
+     font-size: 50px;
+ }
+ .getMore >p{
+     font-size: 20px;
+ }
+ .LogoContainer{
+     height: 700px;
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+ }
+ 
+ 
+ .LogoContainer>.LogoChild{
+     height: 700px;
+     width: 25vw;
+    
+ }
+ .LogoContainer>.LogoChild>img{
+     height: 400px;
+     padding-left: 60px;
+    
+ }
+ .LogoContainer>.LogoChild>h4{
+     font-size: 20px;
+    padding-left: 80px;
+ }
+ .LogoContainer>.LogoChild>p{
+     font-size: 20px;
+ }
+ .LogoContainer>.LogoChild>button{
+     height: 60px;
+     width: 200px;
+     margin-left: 80px;
+     cursor: pointer;
+     background-color: white;
+ }
+ .LogoContainer>.LogoChild>button:hover{
+ border: blue;
+ color: blue;
+ }
+ .reviewcontainer{
+ 
+     height: 400px;
+     width: 100%;
+     background-color: rgb(243,241,238);
+     display: flex;
+ }
+ .reviewcontainer>img{
+     height: 200px;
+     margin-left: 100px;
+     margin-top: 100px;
+     display: flex;
+     
+ }
+ .reviewcontainer>p{
+    
+     width: 50%;
+     margin-left: 100px;
+    margin-top: 150px;
+     height: 100px;
+     font-size: 20px;
+ }
+ .webPara{
+     
+     height: 400px;
+ }
+ .webPara>h1,p{
+     text-align: center;
+ }
+ .webPara>h1{
+     font-size: 60px;
+ }
+ .webPara>p{
+     font-size: 30px;
+ }
+ 
+ .webImgPortation{
+    
+     height: 400px;
+     background-color: rgb(48,48,48);
+     display: flex;
+     justify-content: space-around;
+ }
+ .webImgPara{
+    
+     height: 400px;
+     width: 40%;
+ }
+ .webImgPara>h1,#webImgPara{
+     color: white;
+    
+ }
+ .webImgPara>#webImgPara{
+    font-size: 20px;
+ }
+ .webImgPara>h1{
+     font-size: 50px;
+     padding-left: 50px;
+ }
+ .webImgLogo{
+     
+     height: 400px;
+     width: 40%;
+ }
+ .webImgLogo>img{
+     height: 400px;
+ }
+ 
+ .bottom{
+     height: 700px;
+     width: 100%;
+    
+     display: flex;
+     justify-content: center;
+ }
+ .bottomChild{
+     height: 700px;
+     width: 15%;
+    
+ }
+ 
+ .bottomChild>p{
+     padding-top: 20px;
+ }
+ .end{
+    
+     height: 50px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+ .endChild{
+     padding-left: 150px;
+ }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="header">
+        <div class="headerLogo"><img src="https://app.unbounce.com/app_assets/logo/unbounce-identity-gray-db7ebfd2fef7d62e9a9291a4bfa9c5de863e0be6523b437b87c16d27f0015412.svg" alt=""></div>
+    </div>
+    <div class="headingInfo">
+        <div class="headingInfoChild"> <h4>1. Account Info</h4></div>
+        <div class="headingInfoChild"><h4>2. Billing Info</h4></div>
+        <div class="headingInfoChild"><h4>3. Email Configration</h4></div>
+    </div>
+    <div class="maincontainer">
+    <div class="container1">
+        <div class="heading1"><h2>Create your Accelerate account ($240.00/month)</h2></div>
+        <button id="btn">Sign Up with Google</button>
+        <p>or</p>
+        <div id="name">
+            <div class="ChildFirstName">
+                <p>First Name</p>
+                <input type="text" id="FirstName" placeholder="Enter Your First Name">
+            </div>
+            <div class="ChildSecondName">
+                <p>Last Name</p>
+                <input type="text" id="SecondName" placeholder="Enter Your Last Name">
+            </div>
+        </div>
+        <div class="Email">
+            <p>Email</p>
+            <input type="text" id="mail" placeholder="Enter Your Email">
+        </div>
+        <div class="password">
+            <p>Password</p>
+            <input type="password" id="password" placeholder="Enter Your Password">
+        </div>
+        <button id="signup" onclick="clicked()">Sign Up With Email</button>
+    </div>
+    <div class="container2">
+        <div class="para"><h2>Order Summary</h2></div>
+        <p>Your Pricing Plan</p>
+        <select name="" id="select">
+            <option value="" class="option">Launch $99.00 billed monthly</option>
+            <option value=""class="option">Launch $99.00 billed monthly</option>
+            <option value=""class="option">Launch $891.00 billed annually</option>
+            <option value=""class="option">Optimize $145.00 billed monthly</option>
+            <option value=""class="option">Optimize $1,305.00 billed annually</option>
+            <option value=""class="option">Accelerate $240.00 billed monthly</option>
+        </select>
+        <div class="headerAmount">
+            <div class="amoutpara"><h3>Total due in 14 days</h3></div>
+            <div class="amount"><h3>$99.00 USD</h3></div>
+        </div>
+        <p>If you have a coupon code, you can apply it at the next step <br>
+
+            *You will be billed 14 days from the date of signup unless you cancel within the 14 day allotment. Your account will auto renew monthly on the same date. <br>
+            
+            Interested in a Concierge plan? Let’s talk</p>
+    </div>
+    
+</div>
+</body>
+<script>
+    
+function clicked(){
+    let name=document.getElementById('FirstName')
+    alert("Your Order Is Placed"+" " +name.value)
+}
+</script>
+</html>

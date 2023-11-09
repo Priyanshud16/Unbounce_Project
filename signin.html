@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .signinContainer{
+            height: 730px;
+            width: 100%;
+            display: flex;
+        }
+       .signinContainer>.signinPortion{
+            height: 730px;
+            width: 50%; 
+        }
+        .unbouncelogo{
+            
+            height: 50px;
+            width: 200px;
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+        .signinheading{
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            height: 50px;
+            width: 250px;
+           margin-left: 100px;
+           padding-top: 1px;
+           padding-left: 10px;
+           color: rgb(96,96,96);
+        }
+        .paragraph{
+          
+          height: 30px;
+          width: 350px;
+          margin-left: 100px;
+
+        }
+        .paragraph>p{
+            color: rgb(170,190,217);
+        }
+        .paragraph>p>a{
+            text-decoration: none;
+            color: blue;
+        }
+        .paragraph>p>a:hover{
+          text-decoration: underline;
+        }
+        .email{
+           
+            height: 200px;
+            width: 450px;
+            margin-left: 100px;
+            margin-top: 50px;
+           
+        }
+        .email>#mail{
+            width: 350px;
+            height: 30px;
+        }
+        
+        .radioPortion{
+           
+            display: flex;
+            
+        }
+        .radio{
+            height: 20px;
+            width: 20px;
+            margin-left: 100px;
+            margin-top: 15px;
+        }
+        .para>p>a{
+            color: blue;
+            text-decoration: none;
+        }
+        .para>p>a:hover{
+            text-decoration: underline;
+        }
+        #signinbtn{
+            margin-left: 100px;
+            height: 50px;
+            width: 400px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #signinbtn:hover{
+            background-color: rgb(242,241,237);
+            color: blue;
+        }
+        .or{
+          margin-left: 290px;
+        }
+        #googlesignin{
+            height: 50px;
+            width: 400px;
+            margin-left: 100px;
+            cursor: pointer;
+            
+        }
+        #googlesignin:hover{
+            background-color: rgb(222, 211, 213);
+        }
+        .logo{
+    background-color: rgb(242,241,237);
+}
+.heading{
+
+    height: 150px;
+    width: 100%;
+    margin-top: 150px;
+}
+.heading>h1,h2{
+    text-align: center;
+    font-weight: bold;
+}
+.logo2>img{
+height: 420px;
+width: 100%;
+
+}
+
+
+#password{
+ 
+    height: 200px;
+}
+.email>h2{
+
+    width: 10%;
+    padding-right: 200px;
+}
+    </style>
+</head>
+<body>
+    <div class="signinContainer">
+   <div class="signinPortion">
+    <div class="unbouncelogo">
+        <img src="https://d9hhrg4mnvzow.cloudfront.net/unbounce.com/product-selector/7089096e-d22ffb13-logo-unbounce.svg" alt="">
+    </div>
+    <div class="signinheading">
+        <h4>Sign Into Your Unbounce Account</h4>
+    </div>
+    
+    <div class="paragraph">
+        <p>Need an Unbounce Account?<a href=""> Create an account</a></p>
+    </div>
+    <div class="email">
+        <h2>email</h2>
+       <input type="text" id="mail" placeholder="Enter your email" />
+       <h2>Password</h2>
+       
+        <input type="password" id="mail">
+    
+    </div>
+    
+     <div class="radioPortion">
+        <div class="radio"><input type="radio"></div>
+        <div class="para"><p> Remember this browser for 2 weeks  <a href="">Forgot Password?</a>
+        </p></div>
+    </div>
+    <button id="signinbtn" onclick="clicked()">Signin</button><br>
+    <div class="or">or</div>
+    <button id="googlesignin">Sign in with Google</button>
+   </div>
+   
+   <div class="logo">
+    <div class="heading">
+        <h1>Build your page just how you like it</h1>
+        <h2>Drag-and-drop is now available in Smart Builder</h2>
+    </div>
+    <div class="logo2">
+        <img src="loginpagelogo.png" alt="">
+    </div>
+    </div>
+</body>
+<script>
+  
+   
+    function clicked(){
+        let email=document.querySelector('#mail');
+       
+        alert( `Your Login Successfull ${ email.value}`)
+    }
+    
+</script>
+
+
+</html>

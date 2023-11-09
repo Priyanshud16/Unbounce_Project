@@ -1,0 +1,191 @@
+.header{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 70px;
+    width: 100%;
+}
+.headerLogo>img{
+  height: 50px;
+}
+.headerLogo{
+    
+    width: 40%;
+    margin-left: 200px;
+    margin-top: 15px
+}
+.headingInfo{
+    
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+.headingInfoChild{
+    
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+   
+}
+.maincontainer{
+    display: flex;
+    gap: 30px;
+}
+.container1{
+   
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 50%;
+    height: 900px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.container1>.heading1{
+    border: 1px solid white;
+    width: 100%;
+   background-color: rgb(237,237,237);
+  height: 70px;
+  margin-bottom: 20px;
+  
+  
+}
+.container1>.heading1>h2{
+    padding-left: 30px;
+}
+.container1>#btn{
+    height: 50px;
+    width: 550px;
+    color: rgb(109,109,109);
+    background-color: white;
+    margin-left: 100px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+}
+
+.container1>#btn:hover{
+    color: white;
+    background-color: rgb(109,109,109);
+
+}
+.container1>p{
+    text-align: center;
+}
+#name{
+   
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+#name>.ChildFirstName{
+   
+    width: 45%;
+    height: 70px;
+}
+
+.ChildFirstName>p{
+    
+    width: 80px;
+   
+}
+.ChildFirstName>#FirstName{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+#name>.ChildSecondName{
+   
+    width: 45%;
+    height: 70px;
+}
+.ChildSecondName>#SecondName{
+    width: 300px;
+    height: 30px;
+    
+}
+
+.container2{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 500px;
+    width: 30%;
+    margin-top: 50px;
+}
+.Email{
+    
+    height: 50px;
+    width: 100%;
+    margin-top: 70px;
+}
+.Email>p{
+    
+    width: 50px;
+    
+  
+}
+.Email>#mail{
+    width: 600px;
+    height: 30px;
+    
+}
+.password{
+   
+    margin-top: 100px;
+}
+.password>#password{
+    height: 30px;
+    width: 600px;
+}
+#signup{
+    margin-top: 100px;
+    width: 500px;
+    height: 50px;
+    margin-left: 100px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+#signup:hover{
+    background-color: rgb(10, 10, 153);
+}
+.para{
+    border: 1px solid white;
+    height: 70px;
+    width: 93%;
+    background-color: rgb(237,237,237);
+    padding-left: 30px;
+}
+.container2>p{
+    padding-left: 30px;
+}
+#select{
+    width:400px;
+    height: 40px;
+    margin-left: 30px;
+    border: 1px solid blue;
+    cursor: pointer;
+
+}
+.headerAmount{
+    
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.headerAmount>.amoutpara{
+   
+    height: 50px;
+    width: 40%;
+}
+.headerAmount>.amount{
+   
+    width: 40%;
+    height: 50px;
+}
+.amount>h3{
+    color: rgb(39,204,141);
+    padding-left: 30px;
+}
+.container2>p{
+    padding-top: 30px;
+    padding-right: 30px;
+}
